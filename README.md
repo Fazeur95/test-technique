@@ -17,7 +17,7 @@ Avant de commencer, assurez-vous d'avoir installé les éléments suivants sur v
 1. **Cloner le dépôt** : Commencez par cloner ce dépôt GitHub sur votre machine locale en utilisant la commande suivante :
 
 ```bash
-git clone https://github.com/Fazeur95/searchimages.git
+git clone https://github.com/Fazeur95/test-technique.git
 ```
 
 Remplacez "username" par votre nom d'utilisateur GitHub.
