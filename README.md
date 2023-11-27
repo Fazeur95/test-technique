@@ -20,12 +20,10 @@ Avant de commencer, assurez-vous d'avoir installé les éléments suivants sur v
 git clone https://github.com/Fazeur95/test-technique.git
 ```
 
-Remplacez "username" par votre nom d'utilisateur GitHub.
-
 2. **Naviguer dans le répertoire du projet** : Utilisez la commande `cd` pour naviguer dans le répertoire du projet :
 
 ```bash
-cd searchimages
+cd test-technique/searchimages
 ```
 
 3. **Obtenir les dépendances du projet** : Exécutez la commande suivante pour obtenir toutes les dépendances du projet :
