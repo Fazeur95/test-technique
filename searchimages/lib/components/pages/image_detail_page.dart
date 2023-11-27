@@ -1,14 +1,19 @@
 import 'package:flutter/material.dart';
+
 class ImageDetailPage extends StatelessWidget {
   final String imageUrl;
+  final String title; 
 
-  ImageDetailPage({Key? key, required this.imageUrl}) : super(key: key);
+  ImageDetailPage({Key? key, required this.imageUrl, required this.title}) : super(key: key); 
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+       
+  
       appBar: AppBar(
-        title: Text('Détail de l\'image'),
+        title: Text(title),
+        backgroundColor: Colors.deepPurpleAccent,
       ),
       body: Center(
         child: Image.network(imageUrl),
@@ -16,4 +21,3 @@ class ImageDetailPage extends StatelessWidget {
     );
   }
 }
-

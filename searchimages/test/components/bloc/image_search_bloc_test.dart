@@ -15,7 +15,8 @@ void main() {
     });
 
     test('emits [ImageSearchLoadInProgress, ImageSearchLoadSuccess] when ImageSearchRequested is added', () {
-      when(client.get(any)).thenAnswer((_) async => http.Response('{"hits": []}', 200));
+      var uri = Uri.parse('http://example.com');
+      when(client.get(uri)).thenAnswer((_) async => http.Response('{"hits": []}', 200));
 
       final expectedResponse = [
         ImageSearchLoadInProgress(),
